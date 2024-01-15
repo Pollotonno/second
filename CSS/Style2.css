@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/* 
+             Alunno:
+             Classe:
+                 
+    Anno scolastico:
+               Data:
+                   
+*/
+
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: #5D5D5D;
+	 min-height: 100vh;
+	 padding: 0;
+	 margin: 0;
+}
+
+div#wrapper {
+    width: 90%;
+    min-width: 600px;
+    max-width: 1200px;
+	 min-height: 100vh;
+    padding: 0;
+    margin: 0 auto 0 auto;
+    display: flex;
+	 flex-direction: column;
+}
+
+header {
+    color: #EDEBDA;
+    background-color: #B1BDB6;
+    height: 100px;
+    padding: 10px 20px;
+    margin: 10px 0 0 0;
+    display: flex;
+	flex: 1 1;	
+}
+
+header > img {
+    float: left;
+    height: 90px;
+    padding: 0;
+    margin-left:50px;
+}
+header h1{
+    margin-left: 100px;
+}
+div#container {
+    background-color: #E7E4CE;
+    padding: 0;
+    margin: 0;
+	 flex: 1 1;
+	 flex-direction: row;
+	 align-items: stretch;
+    display: flex;
+}
+
+nav {
+    font-size: 11pt;
+    padding: 10px;
+    margin: 0;
+    flex: 1 1;
+}
+
+nav > ul {
+	list-style-image: url(../img/marcatore.png);
+}
+
+nav > ul > li {
+   margin-bottom: 1.5em;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #5D5D5D;
+}
+
+main {
+    background-color: white;
+    font-size: 10pt;
+    padding: 10px 30px 20px 30px;
+    flex: 4 4;
+}
+
+main > h1 {font-size: 20pt;}
+
+main > h2 {font-size: 14pt;}
+
+main > h3 {
+    font-size: 11pt;
+    color: gray;
+}
+
+figure {
+    clear: right;
+    float: right;
+    text-align: center;
+    border: solid 1px black;
+    padding: 5px;
+    margin: 0 0 20px 20px;
+}
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+hr {clear: both;}
+
+footer {
+    color: #565656;
+    background-color: #B1BDB6;
+    text-align: center;
+    font-size: 9pt;
+    margin: 0 0 10px 0;
+    padding: 10px 0 10px 0;
+    flex: 0 0;
+}
+
+footer p {
+    margin: 5px 0 5px 0;
+}

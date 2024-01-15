@@ -1,0 +1,73 @@
+header {
+  background-image: url(../Immagini/bg1.png);
+  height: 120px;
+}
+nav {
+  background-image: url(../Immagini/bg1.png);
+  min-width: 6%;
+  width: 300px;
+}
+main {
+  min-height: 700px;
+  /* margin-left: 5px; */
+  padding: 30px;
+}
+footer {
+  text-align: center;
+  min-height: 50px;
+  padding-top: 10px;
+  background-image: url(../Immagini/bg1.png);
+}
+
+.Contenitore {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+figure {
+  float: right;
+  margin: 0%;
+}
+main figure{
+  border: solid black 2px;
+  padding: 2px;
+  margin-left: 10px;
+}
+header img {
+  float: left;
+  align-items: normal;
+  height: 90px;
+  margin-left: 50px;
+  margin-top:10px;
+  }
+header h1 {
+  margin-left: 100px;
+}
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+table{
+  width: 80%;
+}
+table,
+td,
+th {
+  border-collapse: collapse;
+  border-style: ridge;
+  border-color: black;
+  margin: auto;
+  padding:3px;
+}
+h3 {
+  text-align: center;
+}
+header h1 {
+  color: rgb(0, 0, 0);
+  padding: 10px 0px 0px 50px;
+}
+a{text-decoration: none;}
+ul{
+  padding-left:25px;
+}
